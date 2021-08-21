@@ -37,3 +37,5 @@ gcloud dataproc jobs submit pyspark gs://bucket-desafio-dataproc/contador.py \
 #gs://bucket-desafio-dataproc/contador.py
 ###################
 ###################
+sed 10q part-00000 > resultado.txt
+###################
